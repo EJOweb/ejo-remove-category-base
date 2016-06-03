@@ -1,33 +1,36 @@
 <?php
-/**
- * Plugin Name: EJO Remove Category Base
- * Description: Removes the category base slug from the category archive permalinks.
- * Version:     0.9
- * Author:      Erik Joling
- * Author URI:  http://erik.joling.me
- *
- * Inspired by:
- * - WP Remove Category Base of Ezra Verheijen
- * - Remove Category URL of Valerio Souza
- * - No Category Base (WPML) of Marios Alexandrou
- * 
- * License:     GPL v3
- * 
- * Copyright (c) 2016, Erik Joling
- * 
- * EJO Remove Category Base is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 3 of the License, or
- * (at your option) any later version.
- * 
- * WP Remove Category Base is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU General Public License for more details.
- * 
- * You should have recieved a copy of the GNU General Public License
- * along with this program. If not, see <http://www.gnu.org/licenses>.
- */
+/*
+Plugin Name: EJO Remove Category Base
+Description: Removes the category base slug from the category archive permalinks.
+Version:     0.9
+Author:      Erik Joling
+Author URI:  http://erik.joling.me
+
+GitHub Plugin URI: 	https://github.com/EJOweb/ejo-remove-category-base
+GitHub Branch:     	master
+
+Inspired by:
+- WP Remove Category Base of Ezra Verheijen
+- Remove Category URL of Valerio Souza
+- No Category Base (WPML) of Marios Alexandrou
+
+License:     GPL v3
+
+Copyright (c) 2016, Erik Joling
+
+EJO Remove Category Base is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+WP Remove Category Base is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have recieved a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses>.
+*/
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // exit if accessed directly
